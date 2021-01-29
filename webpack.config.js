@@ -2,7 +2,7 @@
 var path = require('path');
 
 module.exports = {
-    entry: "./frontend/my_app.jsx",
+    entry: "entry.jsx",
     devtool: 'source-map',
     output: {
         path: path.resolve(__dirname, 'app', 'assets', 'javascripts'),
