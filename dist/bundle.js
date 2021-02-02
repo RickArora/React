@@ -63,13 +63,10 @@ var Calculator = /*#__PURE__*/function (_React$Component) {
 
   var _super = _createSuper(Calculator);
 
-  function Calculator(props) {// my code here 
-
-    var _this;
-
+  function Calculator(props) {
     _classCallCheck(this, Calculator);
 
-    return _possibleConstructorReturn(_this);
+    return _super.call(this, props); // my code here 
   } // More code here
 
 

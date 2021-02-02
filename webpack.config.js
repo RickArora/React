@@ -4,7 +4,7 @@ var path = require('path');
 module.exports = {
   entry: './app.jsx',
   output: {
-    filename: './bundle.js',
+    filename: './dist/bundle.js',
   },
   module: {
     rules: [
