@@ -2,15 +2,19 @@ import React from "react";
 
 class Calculator extends React.Component {
     constructor(props) {
-        super(props);
-        // my code here 
-    }
+        super(props)
+        this.state = {
+        result:0,
+        num1:"",
+        num2: ""
+        };
+    };
     // More code here
     render() {
         return (
             <div>
                 <h1>
-                    Hello World
+                    {this.state.result}
                 </h1>
             </div>
         );
